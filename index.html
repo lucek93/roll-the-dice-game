@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e42ef226d8.js" crossorigin="anonymous"></script>
+    <link type="text/css" rel="stylesheet" href="resources/css/style.css">
+    <title>Roll the dice</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="player-1-panel active">
+            <div class="player-name" id="name-1">Player 1</div>
+            <div class="player-score" id="score-1">0</div>
+            <div class="player-current-box">
+                <div class="player-current-label">Current points</div>
+                <div class="player-current-score" id="current-1">0</div>
+            </div>
+        </div>
+
+        <div class="player-2-panel">
+            <div class="player-name" id="name-2">Player 2</div>
+            <div class="player-score" id="score-2">0</div>
+            <div class="player-current-box">
+                <div class="player-current-label">Current points</div>
+                <div class="player-current-score" id="current-2">0</div>
+            </div>
+        </div>
+
+        <button class="btn-new"><i class="far fa-plus-square"></i>New game</button>
+        <button class="btn-roll"><i class="fas fa-dice"></i>Roll dice</button>
+        <button class="btn-hold"><i class="fas fa-piggy-bank"></i>Hold</button>
+
+        <input type="text" placeholder="Final score" class="final-score">
+
+        <img src="resources/images/dice-1.png" alt="Dice" class="dice" id="dice-1">
+    </div>
+
+    <script src="resources/js/app.js"></script>
+</body>
+
+</html>
